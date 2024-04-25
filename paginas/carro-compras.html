@@ -7,6 +7,7 @@
     <link rel="icon" href="../media/logo-favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/82148ddc8a.js" crossorigin="anonymous"></script>
     <title>CinemaFusion Films</title>
+    
 </head>
 <body>
     <header style="background-color: black; color:aliceblue;">
@@ -15,10 +16,10 @@
         <nav align="right">
             <a href="index.html" style="color: aliceblue;">HOME</a>
             <a href="acerca-de.html" style="color: aliceblue;">ACERCA DE</a>
-            <a href="#" style="color: red;">NUESTRAS PELICULAS</a>
+            <a href="nuestras-peliculas.html" style="color: aliceblue;">NUESTRAS PELICULAS</a>
             <a href="novedades.html" style="color: aliceblue;">NOVEDADES</a>
             <a href="contacto.html" style="color: aliceblue;">CONTACTO</a>
-            <a href="carro-compras.html" style="color: aliceblue;"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a>
+            <a href="carro-compras.html" style="color: aliceblue;"><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></a>
         </nav>
 
         <h1 align="center">CinemaFusion Films</h1>
@@ -27,6 +28,33 @@
 
     <main style="background-color: rgb(30, 30, 30); color: aliceblue; text-align: center;">
         <br><br>
+        <section style="display: flex; justify-content: space-between; background-color: rgb(30, 30, 30);">
+
+            <div style="flex-grow: 1;border: 2px solid rgb(113, 6, 6)">
+                <h2 style="margin-bottom: 2;">Carrito de Compras</h2>
+                <div>
+                    <h3>Dracula</h3>
+                    <p>Precio:40 $</p>
+                    <a href="#" onclick="borrarProducto()" style="color: rgb(16, 75, 159);margin-right: 10px;">Eliminar</a> 
+                    <a href="#" onclick="agregarProducto()" style="color: rgb(16, 75, 159);">Guardar en favoritos</a>
+                </div>
+                <div>
+                    <h3>Cobra</h3>
+                    <p>Precio:30 $</p>
+                </div>
+            </div>
+
+            <div style="flex-basis: 30%;border: 2px solid rgb(113, 6, 6)">
+                <h2>Resumen de Compra</h2>
+                <div>
+                    <p>Productos(2): 70$</p>
+                    <p>Impuestos Pais: $20%</p>
+                    <p>Total: 84$</p>
+                </div>
+                <button>Realizar Pago</button>
+            </div>
+
+        </section>
     </main>
 
     <footer style="background-color: black; color: aliceblue;" >
